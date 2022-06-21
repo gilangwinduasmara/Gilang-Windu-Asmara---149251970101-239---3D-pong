@@ -19,7 +19,7 @@ public class BallController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // _rigidBody.velocity = _rigidBody.velocity.normalized * movingSpeed;
+        _rigidBody.velocity = _rigidBody.velocity.normalized * movingSpeed;
     }
 
     void OnCollisionEnter(Collision collision)
